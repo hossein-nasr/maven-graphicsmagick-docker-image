@@ -4,7 +4,7 @@ stages:
   - build
 
 build:
-  stage: nuild
+  stage: build
   script:
     - docker build . -t nexus.asta.ir:4000/im/maven-graphicsMagick:3.6.1-jdk-8
     - docker push  nexus.asta.ir:4000/im/maven-graphicsMagick
