@@ -21,7 +21,7 @@ services:
  - docker:dind
 
 before_script:
- - docker info
+ - printenv
 
 stages:
   - build
